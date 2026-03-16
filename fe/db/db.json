@@ -1,0 +1,480 @@
+{
+  "account": [
+    {
+      "id": "1",
+      "fullName": "Lê Hoàng Minh Đức",
+      "phoneNumber": "03333222",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "longtitude": "0",
+      "dateOfBirth": "01-01-2004",
+      "gender": "Name",
+      "bloodType": "A+",
+      "createdAt": "6-3-2025",
+      "updateAt": "6-3-2025",
+      "status": "Active",
+      "role": "Member"
+    },
+    {
+      "id": "2",
+      "fullName": "Trương Anh Tuấn",
+      "phoneNumber": "03333222",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "longtitude": "0",
+      "dateOfBirth": "01-01-2004",
+      "gender": "Name",
+      "bloodType": "A+",
+      "createdAt": "6-3-2025",
+      "updateAt": "6-3-2025",
+      "status": "Active",
+      "role": "Member"
+    }
+  ],
+  "bloodDonationRegister": [
+    {
+      "id": "1",
+      "phoneNumber": "0343056189",
+      "fullName": "Trương Anh Tuấn",
+      "gender": "Nam",
+      "address1": "12 Trương Định, TP. Hồ Chí Minh",
+      "bloodType": "A+",
+      "bloodSchedule": "1",
+      "status": "Đang Chờ",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address2": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30"
+    },
+    {
+      "id": "b504",
+      "phoneNumber": "0343056189",
+      "fullName": "Trương Anh Tuấn",
+      "gender": "Nam",
+      "address1": "12 Trương Định, TP. Hồ Chí Minh",
+      "bloodType": "A+",
+      "bloodSchedule": "2",
+      "status": "Đang Chờ",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address2": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30"
+    },
+    {
+      "id": "009d",
+      "phoneNumber": "0343056189",
+      "fullName": "Trương Anh Tuấn",
+      "gender": "Nam",
+      "address1": "12 Trương Định, TP. Hồ Chí Minh",
+      "bloodType": "A+",
+      "bloodSchedule": "2",
+      "status": "Đang Chờ",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address2": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30"
+    }
+  ],
+  "user": {
+    "phoneNumber": "0343056189",
+    "fullName": "Trương Anh Tuấn",
+    "gender": "Nam",
+    "address": "12 Trương Định, TP. Hồ Chí Minh",
+    "bloodType": "A+"
+  },
+  "data": {
+    "value": true
+  },
+  "member": {
+    "profile": {
+      "phoneNumber": "0343056189",
+      "fullName": "Lê Hoàng Minh Đức",
+      "gender": "Nam",
+      "dateOfBirth": "2004-01-01",
+      "address": "12 Trương Định, TP. Hồ Chí Minh",
+      "bloodType": "A+",
+      "avatar": "https://via.placeholder.com/150"
+    }
+  },
+  "admin": {
+    "fullName": "Admin",
+    "role": "admin"
+  },
+  "staff": {
+    "fullName": "Staff",
+    "role": "staff"
+  },
+  "BloodDonateHistory": [
+    {
+      "donationHistoryId": 1,
+      "donationDate": "2025-01-01",
+      "processStatus": "Đã hiến",
+      "location": "Hanoi Red Cross Center",
+      "id": "c19d"
+    },
+    {
+      "donationHistoryId": 4,
+      "donationDate": "2025-06-10",
+      "processStatus": "Đã hiến",
+      "location": "Bệnh viện Đa Khoa Vũng Tàu",
+      "id": "m11d"
+    },
+    {
+      "donationHistoryId": 2,
+      "donationDate": "2025-03-15",
+      "processStatus": "Chưa hiến",
+      "location": "District 1 Hospital",
+      "id": "0505"
+    },
+    {
+      "donationHistoryId": 3,
+      "donationDate": "2025-05-20",
+      "processStatus": "Hủy",
+      "location": "National Hospital of Hematology",
+      "id": "096d"
+    }
+  ],
+  "BloodSchedule": [
+    {
+      "id": "1",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30",
+      "numberRegister": "20",
+      "capcity": "150"
+    },
+    {
+      "id": "2",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30",
+      "numberRegister": "20",
+      "capcity": "150"
+    },
+    {
+      "id": "3",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30",
+      "numberRegister": "20",
+      "capcity": "150"
+    },
+    {
+      "id": "4",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30",
+      "numberRegister": "20",
+      "capcity": "150"
+    },
+    {
+      "id": "5",
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "operatingDate": "12/06/2025",
+      "startTime": "07:00",
+      "endTime": "11:30",
+      "numberRegister": "20",
+      "capcity": "150"
+    },
+    {
+      "id": "0757",
+      "title": "abc",
+      "address": "12314 nguyễn trãi",
+      "numberRegister": "0",
+      "capcity": "12",
+      "operatingDate": "19/6/2025",
+      "startTime": "14:15",
+      "endTime": "12:45"
+    },
+    {
+      "id": "25cc",
+      "title": "a",
+      "address": "12314 nguyễn trãi",
+      "numberRegister": "0",
+      "capcity": "12",
+      "operatingDate": "19/6/2025",
+      "startTime": "14:15",
+      "endTime": "12:45"
+    }
+  ],
+  "waitingDonors": [
+    {
+      "id": "D-01",
+      "name": "Emily Wilson",
+      "time": "10:15 AM",
+      "status": "Pending"
+    },
+    {
+      "id": "D-02",
+      "name": "James Brown",
+      "time": "10:30 AM",
+      "status": "Pending"
+    },
+    {
+      "id": "D-03",
+      "name": "Sophia Martinez",
+      "time": "10:45 AM",
+      "status": "Pending"
+    }
+  ],
+  "newsList": [
+    {
+      "id": "1",
+      "img": "https://giotmauvang.org.vn/assets/images/271b5fe5f864d480023593de2e8aaf3a.png",
+      "caption": "",
+      "title": "KHỞI ĐỘNG THÁNG NHÂN ĐẠO NĂM 2025: HÀNH TRÌNH NHÂN ĐẠO - LAN TỎA YÊU THƯƠNG",
+      "desc": "Ngày 8-5, tại TPHCM, Trung ương Hội Chữ thập đỏ Việt Nam và UBND TPHCM phối hợp tổ chức lễ phát động Tháng Nhân đạo cấp quốc gia năm 2025 với chủ đề 'Hành trình nhân đạo - Lan tỏa yêu thương'.",
+      "link": "/news/1"
+    },
+    {
+      "id": "2",
+      "img": "https://file.hstatic.net/1000115152/article/untitled_20a7b5fd50384d83bc4f8928efc9a7af_large.png",
+      "caption": "",
+      "title": "NGÀY TOÀN DÂN HIẾN MÁU TÌNH NGUYỆN 7/4/2025",
+      "desc": "Ngày 7/4, chúng ta cùng nhau hướng về một ngày ý nghĩa – Ngày Toàn dân hiến máu tình nguyện.",
+      "link": "/news/2"
+    },
+    {
+      "id": "3",
+      "img": "https://giotmauvang.org.vn/assets/images/da5501e9bb4fde7f2a6c831c04eae5e7.jpg",
+      "caption": "",
+      "title": "ÁP DỤNG CÔNG NGHỆ SỐ TRONG HOẠT ĐỘNG HIẾN MÁU TÌNH NGUYỆN",
+      "desc": "Ngày 04/3, tại Trung tâm Hiến máu nhân đạo, Hội Chữ thập đỏ Thành phố phối hợp Hội Tin học Thành phố cùng với sự đồng hành của c...",
+      "link": "/news/3"
+    }
+  ],
+  "blood_donations": [
+    {
+      "id": "1",
+      "userId": 1,
+      "donationDate": "2024-10-12",
+      "location": "Hanoi Red Cross Center",
+      "volume": 350
+    },
+    {
+      "id": "2",
+      "userId": 1,
+      "donationDate": "2025-04-20",
+      "location": "National Hospital of Hematology",
+      "volume": 450
+    },
+    {
+      "id": "3",
+      "userId": 2,
+      "donationDate": "2025-01-15",
+      "location": "District 1 Hospital",
+      "volume": 350
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Nguyễn Văn A",
+      "phoneNumber": "0912345678",
+      "gender": "Nam",
+      "role": "member",
+      "address": "Huế",
+      "bloodType": "O+",
+      "status": "BỊ CẤM"
+    },
+    {
+      "id": "2",
+      "name": "Trần Thị B",
+      "phoneNumber": "0987654321",
+      "gender": "Nữ",
+      "role": "staff",
+      "address": "TP. HCM",
+      "status": "HOẠT ĐỘNG"
+    },
+    {
+      "id": "3",
+      "name": "Lê Văn C",
+      "phoneNumber": "0909090909",
+      "gender": "Nam",
+      "role": "member",
+      "address": "Đà Nẵng",
+      "bloodType": "B+",
+      "status": "HOẠT ĐỘNG"
+    },
+    {
+      "id": "4",
+      "name": "Phạm Thị D4",
+      "phoneNumber": "0978123456",
+      "gender": "Nữ",
+      "role": "member",
+      "address": "1334/28/28 Đường 30/4 Phường 12 Thành phố Vũng Tàu",
+      "bloodType": "",
+      "status": "HOẠT ĐỘNG"
+    },
+    {
+      "id": "5",
+      "name": "Phạm Thị D5",
+      "phoneNumber": "0978123456",
+      "gender": "Nữ",
+      "role": "member",
+      "address": "133 Đường Lê Văn Việt, Thành phố Thủ Đức",
+      "bloodType": "",
+      "status": "HOẠT ĐỘNG"
+    }
+  ],
+  "report": [
+    {
+      "donationStatus": {
+        "daHien": 65,
+        "chuaHien": 25,
+        "biHuy": 10
+      },
+      "id": "7d1f"
+    }
+  ],
+  "blood_inventory": [
+    {
+      "volume_ml": 12750,
+      "id": "A+"
+    },
+    {
+      "volume_ml": 6050,
+      "id": "A-"
+    },
+    {
+      "id": "B+",
+      "volume_ml": 2000
+    },
+    {
+      "id": "B-",
+      "volume_ml": 3000
+    },
+    {
+      "id": "AB+",
+      "volume_ml": 4000
+    },
+    {
+      "id": "AB-",
+      "volume_ml": 3000
+    },
+    {
+      "volume_ml": 2350,
+      "id": "O+"
+    },
+    {
+      "id": "O-",
+      "volume_ml": 2000
+    }
+  ],
+  "donation_process": [
+    {
+      "registration_id": "1",
+      "created_at": "2025-04-06",
+      "volume": "350",
+      "is_passed": "ĐÃ ĐẠT",
+      "blood_type_id": "A-",
+      "id": "rd1"
+    },
+    {
+      "registration_id": "2",
+      "created_at": "2025-04-06",
+      "volume": "450",
+      "is_passed": "ĐÃ ĐẠT",
+      "blood_type_id": "A+",
+      "id": "rd2",
+      "type_donation":"BÌNH THƯỜNG"
+    },
+    {
+      "registration_id": "3",
+      "created_at": "2025-04-06",
+      "volume": "450",
+      "is_passed": "CHƯA KIỂM TRA",
+      "blood_type_id": "A+",
+      "id": "rd3",
+      "type_donation":"BÌNH THƯỜNG"
+    },
+    {
+      "registration_id": "4",
+      "created_at": "2025-04-06",
+      "volume": "450",
+      "is_passed": "CHƯA KIỂM TRA",
+      "blood_type_id": "A+",
+      "id": "rd4",
+      "type_donation":"BÌNH THƯỜNG"
+    },
+    {
+      "registration_id": "5",
+      "created_at": "2025-04-06",
+      "volume": "450",
+      "is_passed": "ĐÃ ĐẠT",
+      "blood_type_id": "A+",
+      "id": "rd5",
+      "type_donation":"BÌNH THƯỜNG"
+    }
+  ],
+  "bloodRequestList": [
+    {
+      "id" : 1,
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "name": "Nguyễn Văn A",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "bloodType": "A+",
+      "statusDonation": "Bình Thường"
+    },
+    {
+      "id" : 2,
+      "title": "Hiến Máu - Trung Tâm Hiến Máu Nhân Đạo Tp.HCM",
+      "name": "Nguyễn Văn B",
+      "address": "123 Nguyễn Huệ, Tp. Hồ Chí Minh",
+      "bloodType": "A+",
+      "statusDonation": "Khẩn Cấp"
+    }],
+  "donation_registration":[
+    {
+     "id":"1",
+     "registration_date":"2025-04-06",
+     "status":"Đã hiến",
+     "start_desired_time":"",
+     "end_desired_time":"",
+     "donor_id":"5",
+     "staff_id":"",
+     "blood_donation_schedule_id":""
+    },
+    {
+      "id":"2",
+      "registration_date":"2025-04-06",
+      "status":"Đã hiến",
+      "start_desired_time":"",
+      "end_desired_time":"",
+      "donor_id":"2",
+      "staff_id":"",
+      "blood_donation_schedule_id":""
+     },
+     {
+      "id":"3",
+      "registration_date":"2025-04-06",
+      "status":"Đã hiến",
+      "start_desired_time":"",
+      "end_desired_time":"",
+      "donor_id":"3",
+      "staff_id":"",
+      "blood_donation_schedule_id":""
+     },
+     {
+      "id":"4",
+      "registration_date":"2025-04-06",
+      "status":"Đã hiến",
+      "start_desired_time":"",
+      "end_desired_time":"",
+      "donor_id":"4",
+      "staff_id":"",
+      "blood_donation_schedule_id":""
+
+     }]
+  }
+
